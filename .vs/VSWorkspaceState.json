@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css\\base",
-    "\\assets\\css\\layouts",
-    "\\assets\\css\\modules",
+    "\\assets\\css",
     "\\assets\\js",
     "\\assets\\js\\vendor"
   ],
