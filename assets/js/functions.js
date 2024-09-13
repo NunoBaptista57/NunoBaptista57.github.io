@@ -63,6 +63,20 @@ $( document ).ready(function() {
 
   });
 
+  $('.go2works').click(function(){
+
+    var curActive = $('.side-nav').find('.is-active'),
+        curPos = $('.side-nav').children().index(curActive),
+        lastItem = $('.side-nav').children().index(3),
+        nextPos = 3;
+
+    updateNavs(lastItem);
+    updateContent(curPos, nextPos, lastItem);
+
+  });
+
+
+
   // swipe support for touch devices
   var targetElement = document.getElementById('viewport'),
       mc = new Hammer(targetElement);
