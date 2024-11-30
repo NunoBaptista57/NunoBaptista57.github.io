@@ -4711,10 +4711,11 @@ html.no-csstransitions .s-hero__content {
 .s-contact__email {
     margin-top: var(--vspace-1_5);
     font-family: var(--font-2);
-    font-size: calc(var(--text-size) * 6.6);
+    /*font-size: calc(var(--text-size) * 6.6);*/
+    font-size: calc(var(12) * 3.6);
     font-weight: 500;
     letter-spacing: -0.01em;
-    line-height: 1;
+    line-height: 2;
 }
 
 .s-contact__email a {
@@ -4966,4 +4967,15 @@ html.no-csstransitions .s-hero__content {
     .ss-copyright {
         font-size: 1.4rem;
     }
+}
+
+.centered-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* or a specific height if needed */
+}
+
+.centered-link h1 {
+    text-align: center;
 }
