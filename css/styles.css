@@ -4104,6 +4104,9 @@ html.no-csstransitions .s-hero__content {
     position: relative;
 }
 
+.spacer {
+    height: 80px; /* This will create 20px of space */
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
