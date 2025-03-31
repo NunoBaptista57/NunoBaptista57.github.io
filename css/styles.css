@@ -4121,7 +4121,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/about-photo.jpg);
+    /*background-image: url(../images/about-photo.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4169,7 +4169,11 @@ html.no-csstransitions .s-hero__content {
 }
 
 .spacer {
-    height: 80px; /* This will create 20px of space */
+    height: 80px; /* This will create some px of space */
+}
+
+.midspacer {
+    height: 40px; /* This will create some px of space */
 }
 
 /* ------------------------------------------------------------------- 
