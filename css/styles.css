@@ -4255,6 +4255,7 @@ html.no-csstransitions .s-hero__content {
 
 .service-icon {
     display: block;
+    color:#FFFFFF;
     width: calc(2.25 * var(--space));
     height: calc(2.25 * var(--space));
     background-repeat: no-repeat;
